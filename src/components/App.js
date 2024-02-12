@@ -1,11 +1,23 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 
-const App = () => {
+export const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+      <Head />
+    </div>
+  )
+}
+
+const Head = () => {
+  return (
+    <p>
+    "I am learning React. My life is getting better."
+    </p>
   )
 }
 
 
-export default App;
+
+
+
